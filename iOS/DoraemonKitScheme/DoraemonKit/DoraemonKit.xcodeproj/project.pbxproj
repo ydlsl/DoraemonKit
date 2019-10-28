@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A2AB1A8236690DB00F96514 /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A2AB1A7236690DB00F96514 /* fishhook.h */; };
-		0A2AB1AA236690E400F96514 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A2AB1A9236690E400F96514 /* fishhook.c */; };
-		0A2AB1AC236690F300F96514 /* BSBacktraceLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A2AB1AB236690F300F96514 /* BSBacktraceLogger.h */; };
-		0A2AB1AE236690F900F96514 /* BSBacktraceLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2AB1AD236690F800F96514 /* BSBacktraceLogger.m */; };
+		0A2AB23E2366FDCC00F96514 /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A2AB23C2366FDCB00F96514 /* fishhook.h */; };
+		0A2AB23F2366FDCC00F96514 /* BSBacktraceLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A2AB23D2366FDCB00F96514 /* BSBacktraceLogger.h */; };
+		0A2AB2422366FDD300F96514 /* BSBacktraceLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2AB2402366FDD300F96514 /* BSBacktraceLogger.m */; };
+		0A2AB2432366FDD300F96514 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A2AB2412366FDD300F96514 /* fishhook.c */; };
+		0A2AB2452367054B00F96514 /* Resource in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A2AB2442367054B00F96514 /* Resource */; };
 		0A5FB900235FF3C600E514A3 /* DoraemonKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A5FB8F6235FF3C600E514A3 /* DoraemonKit.framework */; };
 		0A5FB905235FF3C700E514A3 /* DoraemonKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5FB904235FF3C700E514A3 /* DoraemonKitTests.m */; };
 		0A5FB907235FF3C700E514A3 /* DoraemonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A5FB8F9235FF3C600E514A3 /* DoraemonKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -371,10 +372,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A2AB1A7236690DB00F96514 /* fishhook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fishhook.h; path = Carthage/Checkouts/fishhook/fishhook.h; sourceTree = "<group>"; };
-		0A2AB1A9236690E400F96514 /* fishhook.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = fishhook.c; path = Carthage/Checkouts/fishhook/fishhook.c; sourceTree = "<group>"; };
-		0A2AB1AB236690F300F96514 /* BSBacktraceLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BSBacktraceLogger.h; path = Carthage/Checkouts/BSBacktraceLogger/BSBacktraceLogger/BSBacktraceLogger.h; sourceTree = "<group>"; };
-		0A2AB1AD236690F800F96514 /* BSBacktraceLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BSBacktraceLogger.m; path = Carthage/Checkouts/BSBacktraceLogger/BSBacktraceLogger/BSBacktraceLogger.m; sourceTree = "<group>"; };
+		0A2AB23C2366FDCB00F96514 /* fishhook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fishhook.h; path = DoraemonKit/fishhook.h; sourceTree = "<group>"; };
+		0A2AB23D2366FDCB00F96514 /* BSBacktraceLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BSBacktraceLogger.h; path = DoraemonKit/BSBacktraceLogger.h; sourceTree = "<group>"; };
+		0A2AB2402366FDD300F96514 /* BSBacktraceLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BSBacktraceLogger.m; path = DoraemonKit/BSBacktraceLogger.m; sourceTree = "<group>"; };
+		0A2AB2412366FDD300F96514 /* fishhook.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = fishhook.c; path = DoraemonKit/fishhook.c; sourceTree = "<group>"; };
+		0A2AB2442367054B00F96514 /* Resource */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Resource; path = ../../DoraemonKit/Resource; sourceTree = "<group>"; };
 		0A5FB8F6235FF3C600E514A3 /* DoraemonKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DoraemonKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A5FB8F9235FF3C600E514A3 /* DoraemonKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoraemonKit.h; sourceTree = "<group>"; };
 		0A5FB8FA235FF3C600E514A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -735,6 +737,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A2AB2452367054B00F96514 /* Resource in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -752,10 +755,10 @@
 		0A5FB8EC235FF3C600E514A3 = {
 			isa = PBXGroup;
 			children = (
-				0A2AB1AD236690F800F96514 /* BSBacktraceLogger.m */,
-				0A2AB1AB236690F300F96514 /* BSBacktraceLogger.h */,
-				0A2AB1A9236690E400F96514 /* fishhook.c */,
-				0A2AB1A7236690DB00F96514 /* fishhook.h */,
+				0A2AB2402366FDD300F96514 /* BSBacktraceLogger.m */,
+				0A2AB2412366FDD300F96514 /* fishhook.c */,
+				0A2AB23D2366FDCB00F96514 /* BSBacktraceLogger.h */,
+				0A2AB23C2366FDCB00F96514 /* fishhook.h */,
 				0A5FBBF12360011400E514A3 /* DoraemonViewMetricsConfig.m */,
 				0A5FBBF22360011400E514A3 /* UIView+DoraemonViewMetrics.m */,
 				0A5FBBED2360010C00E514A3 /* DoraemonViewMetricsConfig.h */,
@@ -1137,6 +1140,7 @@
 		0A5FBBF5236004BA00E514A3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0A2AB2442367054B00F96514 /* Resource */,
 				0A5FBBF7236004BA00E514A3 /* AFNetworking.framework */,
 				0A5FBBF6236004BA00E514A3 /* SDWebImage.framework */,
 				0A5FBBF8236004BA00E514A3 /* SDWebImageMapKit.framework */,
@@ -1308,7 +1312,6 @@
 				0A5FBB98235FFF9400E514A3 /* UIView+DoraemonSubThreadUICheck.h in Headers */,
 				0A5FBBC4236000A500E514A3 /* UIViewController+DoraemonUIProfile.h in Headers */,
 				0A5FBBC5236000A500E514A3 /* DoraemonUIProfileWindow.h in Headers */,
-				0A2AB1A8236690DB00F96514 /* fishhook.h in Headers */,
 				0A5FBBC6236000A500E514A3 /* DoraemonUIProfileManager.h in Headers */,
 				0A5FBBCE236000BC00E514A3 /* DoraemonViewAlignPlugin.h in Headers */,
 				0A5FBBBB2360009200E514A3 /* DoraemonUIProfileViewController.h in Headers */,
@@ -1323,9 +1326,10 @@
 				0A5FBBD4236000C700E514A3 /* DoraemonViewAlignView.h in Headers */,
 				0A5FBBBC2360009200E514A3 /* DoraemonUIProfilePlugin.h in Headers */,
 				0A5FBB3C235FFEE000E514A3 /* DoraemonNSLogViewController.h in Headers */,
-				0A2AB1AC236690F300F96514 /* BSBacktraceLogger.h in Headers */,
 				0A5FBB58235FFF1900E514A3 /* DoraemonStartPluginProtocol.h in Headers */,
 				0A5FBACF235FFDF100E514A3 /* DoraemonLargeImagePlugin.h in Headers */,
+				0A2AB23E2366FDCC00F96514 /* fishhook.h in Headers */,
+				0A2AB23F2366FDCC00F96514 /* BSBacktraceLogger.h in Headers */,
 				0A5FBAD0235FFDF100E514A3 /* DoraemonLargeImageViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1429,9 +1433,9 @@
 			files = (
 				0A5FBBB5235FFFF100E514A3 /* DoraemonTimeProfiler.m in Sources */,
 				0A5FBBB6235FFFF100E514A3 /* DoraemonTimeProfilerRecord.m in Sources */,
+				0A2AB2422366FDD300F96514 /* BSBacktraceLogger.m in Sources */,
+				0A2AB2432366FDD300F96514 /* fishhook.c in Sources */,
 				0A5FBBF32360011500E514A3 /* DoraemonViewMetricsConfig.m in Sources */,
-				0A2AB1AE236690F900F96514 /* BSBacktraceLogger.m in Sources */,
-				0A2AB1AA236690E400F96514 /* fishhook.c in Sources */,
 				0A5FBBF42360011500E514A3 /* UIView+DoraemonViewMetrics.m in Sources */,
 				0A5FBBDC236000DC00E514A3 /* DoraemonViewCheckPlugin.m in Sources */,
 				0A5FBBE3236000F400E514A3 /* DoraemonViewCheckView.m in Sources */,

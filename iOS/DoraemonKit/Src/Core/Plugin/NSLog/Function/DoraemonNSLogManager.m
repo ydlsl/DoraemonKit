@@ -15,6 +15,7 @@ static void(*old_nslog)(NSString *format, ...);
 //新的NSLog
 void myNSLog(NSString *format, ...){
     
+    
     va_list vl;
     va_start(vl, format);
     NSString* str = [[NSString alloc] initWithFormat:format arguments:vl];

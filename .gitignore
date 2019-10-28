@@ -42,7 +42,7 @@ xcuserdata/
 Pods/
 
 # Carthage
-Carthage/Build/
+Carthage/
 
 
 ### Objective-C Patch ###
