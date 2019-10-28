@@ -1,0 +1,2 @@
+github "bestswifter/BSBacktraceLogger" "master"
+github "facebook/fishhook" "0.2"
