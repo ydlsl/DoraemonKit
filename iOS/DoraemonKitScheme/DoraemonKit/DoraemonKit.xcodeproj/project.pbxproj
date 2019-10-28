@@ -11,7 +11,7 @@
 		0A2AB23F2366FDCC00F96514 /* BSBacktraceLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A2AB23D2366FDCB00F96514 /* BSBacktraceLogger.h */; };
 		0A2AB2422366FDD300F96514 /* BSBacktraceLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2AB2402366FDD300F96514 /* BSBacktraceLogger.m */; };
 		0A2AB2432366FDD300F96514 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A2AB2412366FDD300F96514 /* fishhook.c */; };
-		0A2AB2452367054B00F96514 /* Resource in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A2AB2442367054B00F96514 /* Resource */; };
+		0A2AB2452367054B00F96514 /* Resource in Resources */ = {isa = PBXBuildFile; fileRef = 0A2AB2442367054B00F96514 /* Resource */; };
 		0A5FB900235FF3C600E514A3 /* DoraemonKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A5FB8F6235FF3C600E514A3 /* DoraemonKit.framework */; };
 		0A5FB905235FF3C700E514A3 /* DoraemonKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5FB904235FF3C700E514A3 /* DoraemonKitTests.m */; };
 		0A5FB907235FF3C700E514A3 /* DoraemonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A5FB8F9235FF3C600E514A3 /* DoraemonKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -737,7 +737,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A2AB2452367054B00F96514 /* Resource in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1414,6 +1413,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A2AB2452367054B00F96514 /* Resource in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
