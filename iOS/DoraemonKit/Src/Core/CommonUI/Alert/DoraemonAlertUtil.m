@@ -7,6 +7,7 @@
 
 #import "DoraemonAlertUtil.h"
 #import "Doraemoni18NUtil.h"
+#import <UIKit/UIKit.h>
 
 @implementation DoraemonAlertUtil
 

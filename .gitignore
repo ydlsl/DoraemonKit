@@ -41,6 +41,10 @@ xcuserdata/
 # CocoaPods
 Pods/
 
+# Carthage
+Carthage/Build/
+
+
 ### Objective-C Patch ###
 *.xcscmblueprint
 *.xcworkspacedata

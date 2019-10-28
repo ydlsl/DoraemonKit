@@ -6,7 +6,7 @@
 //
 
 #import "DoraemonNSLogManager.h"
-#import <fishhook/fishhook.h>
+#import "fishhook.h"
 #import "DoraemonStateBar.h"
 
 //函数指针，用来保存原始的函数的地址

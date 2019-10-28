@@ -13,7 +13,7 @@
 #include <sys/time.h>
 #include <objc/runtime.h>
 #include <dispatch/dispatch.h>
-#include <fishhook/fishhook.h>
+#include "fishhook.h"
 
 static bool _call_record_enabled = true;
 static uint64_t _min_time_cost = 1000; //us
